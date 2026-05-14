@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+.virtual_documents/
+.jupyter/
+
+# Outils locaux
+.claude/
+anaconda_projects/
+.DS_Store
+.env
+
+# Artefacts générés (trop volumineux, recréés à l'exécution)
+artifacts/models/
+artifacts/cache/
+artifacts/embeddings/
+artifacts/output/
+
+# Fichier de données volumineux (277 MB, limite GitHub = 100 MB)
+data/euronext_universe/euronext_universe_timeseries.csv
+
+# Logs d'entraînement
+logs/
+*.log
+
+# Archives
+*.zip
+
+# Dossier de validation avant suppression
+_to_delete/
+artifacts/logs/
+data/
