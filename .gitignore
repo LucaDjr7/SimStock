@@ -38,4 +38,3 @@ logs/
 # Dossier de validation avant suppression
 _to_delete/
 artifacts/logs/
-data/
